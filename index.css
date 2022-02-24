@@ -1,0 +1,131 @@
+:root {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 2.3em;
+  justify-content: center;
+  background: linear-gradient(90deg, #0583B0, #05B01F);
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.color {
+  color: black;
+}
+
+label {
+  display: fixed;
+  font-size: 0.7em;
+}
+
+#header-img {
+  width: 10%;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+#survey-form {
+  width: 50rem;
+  margin: auto;
+  padding-bottom: 1rem;
+  background: linear-gradient(45deg, #4EAFFF, #5CE6AE);
+  border-radius: 40px;
+  border: 1.5px solid black;
+  white-space: pre-line;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.form-group {
+  width: 100%;
+  height: auto;
+}
+
+#name-label {
+  width: 100%;
+  height: auto;
+}
+
+#name {
+  width: 75%;
+  border: 1% solid black;
+  border-radius: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+#number {
+  width: 75%;
+  border: 1% solid black;
+  border-radius: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+#email {
+  width: 75%;
+  border: 1% solid black;
+  border-radius: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+#dropdown {
+  width: 75%;
+  border: 1% solid black;
+  border-radius: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+ul {
+  display: grid;
+  margin: 0;
+  list-style: none;
+text-align: left;
+  justify-content: center;
+}
+
+.input-radio, .input-checkbox {
+  margin: 0;
+}
+
+.input-textarea {
+  width: 80%;
+  min-height: 12em;
+  height: auto;
+  resize: vertical;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px       rgba(0,0,0,0.15);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#submit {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1em;
+  width: 100%;
+  border: 3px solid #05B01F;
+  border-radius: 50%;
+  background-color: #5CE6AE;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#footer {
+  font-size: 0.5em;
+  font-family: 'Covered By Your Grace', cursive;
+}
