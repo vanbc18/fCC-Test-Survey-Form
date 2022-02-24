@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="index.css" type="text">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+  </head>
+<meta charset=“UTF-8”>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv=”X-UA-Compatible” content=”ie=edge” />
+<title>Vanska18 Test Survey Form</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main>
+  <body>
+  <header>
+    <img id="header-img" 
+         src="https://static-cdn.jtvnw.net/jtv_user_pictures/85ddc58d-41ad-4210-beda-2084988b4cf4-profile_image-300x300.jpg" 
+         alt="Vanska18's logo : a bunny with a guitar on its belly" />
+      <h1 id="title">Vanska18 Survey Form</h1>
+  </header>
+  <p id="description">Thank you for taking the time to help me improve the stream.</p>
+      Here's a link to <a class="color"
+                          href="https://www.twitch.tv/vanska18"
+                          target="_blank">Vanska18's Twitch Channel</a>
+    <form method="GET"
+          action="https://www.youtube.com/channel/UCNDFQTH2Yps0J9W_ZwABP8g" 
+          target="_blank" 
+          id="survey-form" 
+          autocomplete="off">
+        <label for="name" 
+               id="name-label">Your Name:</label>
+        <input type="text" 
+               id="name" 
+               name="name" 
+               placeholder="Name" 
+               required />
+        <label for="number" 
+               id="number-label">Your age:</label>
+        <input type="number" 
+               id="number" 
+               name="number" 
+               placeholder="Age" 
+               min="18" 
+               max="120" 
+               required />
+        <label id="email-label" 
+               for="email">Your email address:</label>
+        <input type="email" 
+               id="email" 
+               name="email" 
+               placeholder="youknow@todo.com" 
+               autofocus required />
+      <p class="underline">Why do you stick around?</p><select id="dropdown" 
+                                                               name="motive" 
+                                                               class="form-control" 
+                                                               required>
+      <option disabled selected value>Select a reason</option>
+          <option value="music">I love the music </option>
+          <option value="laugh">I stay for the laughs.</option>
+          <option value="drink">I like to listen to you and have a beer. Cheers</option>
+          </select>
+      <p class="underline">What would you like to change in the stream ?</p>
+      <ul><li><label><input name="user-advice" 
+                          type="radio"
+                          class="input-radio" 
+                          value="1"/>Green Screen Background Pic</label></li>
+        <li><label><input name="user-advice" 
+                          type="radio" 
+                          class="input-radio" 
+                          value="2"/>Bunny House</label></li>
+      </ul>
+      <p class="underline">What are the things you would like to see on the stream ?</p><ul>
+        <li><label><input type="checkbox" 
+                          id="ukulele" 
+                          name="ukulele" 
+                          value="ukulele"/>More ukulélé
+        </label></li>
+        <li><label><input type="checkbox" 
+                          id="banhbao" 
+                          name="banh bao" 
+                          value="banh bao" />More Banh Bao
+        </label></li>
+        <li><label><input type="checkbox" 
+                          name="alcohol" 
+                          value="alcohol" 
+                          id="alcohol" />More Drinking
+        </label></li>
+        <li><label><input type="checkbox" 
+                          id="noalcohol" 
+                          name="noalcohol" 
+                          value="noalcohol"/>Less alcohol
+        </label></li></ul><p class="underline">Additional Comments</p><textarea class="input-textarea" 
+          placeholder="Type your message here"></textarea>
+      <input type="submit" 
+             value="Submit" 
+             class="submit" 
+             id="submit" />
+    </form>
+    <footer id="footer">&copy; 2021 Van B-C. FCC Project Page</footer>
+  </body>
+</main>
